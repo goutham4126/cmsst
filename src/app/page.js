@@ -47,7 +47,7 @@ export default function Home() {
                 <span className="font-semibold text-blue-800">Cultural memory</span> conserves heritage by involving an act of remembering and forgetting. This act involves narration, which contributes to the identity of an individual, a society, and a nation. Such stories are narrated in various ways – embodied, written, oral, performance, painting, and digital technologies.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Storytelling holds great significance today as a teaching/learning tool and a part of the major entertainment industry, including cinema, television, and video gaming. It is an ancient tradition in many cultures, recognized by India's <span className="font-semibold text-blue-800">NEP-2020</span> as one of the primary teaching/learning strategies for students of all levels. Along with imagination, individual memory, and cultural memory, storytelling forms a strong connection with memory.
+                Storytelling holds great significance today as a teaching/learning tool and a part of the major entertainment industry, including cinema, television, and video gaming. It is an ancient tradition in many cultures, recognized by India&apos;s <span className="font-semibold text-blue-800">NEP-2020</span> as one of the primary teaching/learning strategies for students of all levels. Along with imagination, individual memory, and cultural memory, storytelling forms a strong connection with memory.
               </p>
             </div>
           </TabsContent>

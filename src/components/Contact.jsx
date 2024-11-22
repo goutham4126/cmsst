@@ -20,7 +20,7 @@ export default function Component() {
     <Card className="w-full mx-auto mt-4">
       <CardHeader>
         <CardTitle>Contact Us</CardTitle>
-        <CardDescription>Leave your query and we'll get back to you.</CardDescription>
+        <CardDescription>Leave your query and we will get back to you.</CardDescription>
       </CardHeader>
       <form onSubmit={handleSubmit}>
         <CardContent>
