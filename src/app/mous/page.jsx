@@ -24,9 +24,9 @@ export default function PdfPreview() {
           href="https://drive.google.com/file/d/1wsW1vhKHTzBuFFcnHAVFPAHuvUUOSeZA/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-600 bg-slate-300 py-1.5 px-2.5 rounded hover:text-blue-800 font-medium"
+          className="text-blue-600 py-1.5 px-2.5 rounded hover:text-blue-800 font-medium"
         >
-          Open PDF
+          Learn more ...
         </Link>
       </CardContent>
     </Card>

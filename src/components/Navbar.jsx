@@ -16,7 +16,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="bg-background sticky top-0 z-50 w-full border-b">
+    <header className="bg-blue-100 sticky top-0 z-50 w-full border-b">
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between py-4">
           <div className="flex items-center">
@@ -26,7 +26,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-10 text-blue-800">
+          <div className="hidden md:flex space-x-10 text-blue-600">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -39,7 +39,7 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Navigation */}
-          <div className="md:hidden text-blue-800">
+          <div className="md:hidden text-blue-600">
             <Button
               variant="ghost"
               size="icon"
@@ -53,7 +53,7 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden py-4 text-blue-800">
+          <div className="md:hidden py-4 text-blue-600">
             {navLinks.map((link) => (
               <Link
                 key={link.href}

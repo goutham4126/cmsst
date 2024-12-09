@@ -12,28 +12,28 @@ export default function Home() {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-center mb-8">Centre for Memory Studies and Storytelling - <Link href="https://vnrvjiet.ac.in/" className="text-primary">VNRVJIET</Link></h1>
       <Tabs defaultValue="introduction" className="w-full">
-        <TabsList className="grid w-full grid-cols-2 gap-4 lg:grid-cols-6 text-blue-800">
-          <TabsTrigger value="introduction">
+        <TabsList className="grid w-full grid-cols-2 gap-4 lg:grid-cols-6">
+          <TabsTrigger value="introduction" className="bg-blue-400 text-white">
             <FaBookOpen className="inline mr-2" /> Introduction
           </TabsTrigger>
-          <TabsTrigger value="significance">
+          <TabsTrigger value="significance" className="bg-blue-400 text-white">
             <FaLightbulb className="inline mr-2" /> Significance
           </TabsTrigger>
-          <TabsTrigger value="vision">
+          <TabsTrigger value="vision" className="bg-blue-400 text-white">
             <FaBullseye className="inline mr-2" /> Vision & Mission
           </TabsTrigger>
-          <TabsTrigger value="objectives">
+          <TabsTrigger value="objectives" className="bg-blue-400 text-white">
             <FaTrophy className="inline mr-2" /> Objectives
           </TabsTrigger>
-          <TabsTrigger value="outcomes">
+          <TabsTrigger value="outcomes" className="bg-blue-400 text-white">
             <FaTrophy className="inline mr-2" /> Outcomes
           </TabsTrigger>
-          <TabsTrigger value="people">
+          <TabsTrigger value="people" className="bg-blue-400 text-white">
             <FaUsers className="inline mr-2" /> People
           </TabsTrigger>
         </TabsList>
         
-        <Card className="mt-6 rounded-md border p-4">
+        <Card className="mt-24 md:mt-6 rounded-md border p-4">
           <TabsContent value="introduction">
             <div className="bg-gradient-to-r from-blue-50 to-white shadow-md rounded-lg p-6">
               <div className="flex items-center mb-4">

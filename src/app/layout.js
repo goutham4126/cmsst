@@ -26,7 +26,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Navbar />
+        <Navbar/>
+        <marquee className="bg-blue-300 w-full p-2">
+          <h1>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur illum earum molestiae consequuntur quae fugit autem culpa nulla saepe corporis?
+          </h1>
+        </marquee>
         {children}
         <Footer/>
         <Toaster />
